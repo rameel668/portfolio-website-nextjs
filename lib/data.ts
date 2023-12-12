@@ -35,28 +35,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Software Engineering Degree",
+    location: "Manchester Metropolitan University | Manchester, UK",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I studied software engineering for 3 years and graduated with a 2:1. Learnt the fundamentals of software engineering and web development. Using skills like HTML, CSS, JavaScript, React, Node.js, MySQL and more.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2019 - 2022",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Software Engineering Bootcamp",
+    location: "IN4 - Skills City | Manchester, UK",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I further developed my skills in up to date software engineering and web development technologies. Improving my skills in HTML, CSS, JavaScript, TypeScript, React, Node.js, Express, MongoDB and more.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "August 2023 - December 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Front-End Developer Internship",
+    location: "WayCup | Manchester, UK",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm currently working as a front-end developer intern. I'm working on a React project with TypeScript, Tailwind, Prisma and MongoDB.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 - present",
   },
 ] as const;
 
