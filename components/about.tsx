@@ -9,7 +9,7 @@ export default function About() {
   const { ref } = useSectionInView('About');
 
   return (
-    <motion.section className='mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28'
+    <motion.section className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
         ref={ref}
         initial={{ opacity: 0, y: 100}}
         animate={{ opacity: 1, y: 0}}
@@ -28,9 +28,9 @@ export default function About() {
         </p>
 
         <p>
-            <span className="italic">When I'm not coding</span>, I enjoy playing video games, watching movies, and going to the gym. I also enjoy
+            <span className="italic">When I&apos;m not coding</span>, I enjoy playing video games, watching movies, and going to the gym. I also enjoy
             <span className="font-medium"> learning new things</span>. I am currently learning about
-            <span className="font-medium"> Health & Wellbeing</span>. I'm also learning how to speak fleunt 
+            <span className="font-medium"> Health & Wellbeing</span>. I&apos;m also learning how to speak fleunt 
             <span className="font-medium"> Punjabi and Urdu</span>.
       </p>
     </motion.section>
